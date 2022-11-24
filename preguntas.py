@@ -15,7 +15,11 @@ def pregunta_01():
     """
     Complete el código presentado a continuación.
     """
-    
+    import matplotlib.pyplot as plt
+    import numpy as np
+    import pandas as pd
+    from sklearn import datasets
+
     # Cargue el dataset digits
     digits = datasets.load_digits()
 
@@ -33,6 +37,11 @@ def pregunta_02():
     """
     Complete el código presentado a continuación.
     """
+    import matplotlib.pyplot as plt
+    import numpy as np
+    import pandas as pd
+    from sklearn import datasets
+    
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
@@ -67,7 +76,10 @@ def pregunta_03():
     """
     Complete el código presentado a continuación.
     """
-
+    import matplotlib.pyplot as plt
+    import numpy as np
+    import pandas as pd
+    from sklearn import datasets
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
