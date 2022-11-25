@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn import datasets
-
+#Funciona
 
 def pregunta_01():
     """
@@ -77,7 +77,7 @@ def pregunta_03():
     Complete el código presentado a continuación.
     """
     import matplotlib.pyplot as plt
-    import numpy as np
+    import numpy as np  
     import pandas as pd
     from sklearn import datasets
     # Importe KNeighborsClassifier de sklearn.neighbors
